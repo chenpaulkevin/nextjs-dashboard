@@ -15,6 +15,7 @@ const iconMap = {
 };
 
 export default async function Cards() {
+  throw new Error("Failed to Delete Invoice");
   const latestInvoices = await fetchLatestInvoices();
   const {
     numberOfInvoices,
